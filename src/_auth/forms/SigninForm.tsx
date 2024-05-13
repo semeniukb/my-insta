@@ -1,14 +1,10 @@
-import {Button} from "@/components/ui/button.tsx";
-import {Input} from "@/components/ui/input.tsx";
-
+import { Button } from "@/components/ui/button.tsx";
 
 export const SigninForm = () => {
-    return (
-       <>
-           <div>SigninForm</div>
-           <Input/>
-           <Button className="mt-20">Click me</Button>
-       </>
-
-)
-}
+  return (
+    <>
+      <div>SigninForm</div>
+      <Button className="mt-20">Click me</Button>
+    </>
+  );
+};
